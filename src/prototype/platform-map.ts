@@ -1,6 +1,6 @@
 import {
   Boxes,
-  Camera,
+  ContactRound,
   FileImage,
   GitBranch,
   LayoutDashboard,
@@ -45,10 +45,11 @@ export const setupChecklist = [
 
 export const starterScreens = [
   {
-    name: 'Intake',
-    status: 'Ready for screenshot',
-    description: 'First screen you send will become the initial reference view.',
-    icon: Camera,
+    name: 'Customer Details Search',
+    status: 'Recreated',
+    description:
+      'Pharmacy search popup opens before customer details are populated.',
+    icon: ContactRound,
   },
   {
     name: 'Platform Map',
